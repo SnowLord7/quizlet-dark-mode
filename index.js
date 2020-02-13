@@ -28,7 +28,7 @@
                 background-color: transparent !important;
             }
 
-            .AssistantScrollableViewLayout-content, .AssistantViewController, .FlippableFlashcard-back, .FlippableFlashcard-front, .AssistantRevealSelfAssessmentQuestionView-actionArea, .UIKeyboardHint {
+            .AssistantScrollableViewLayout-content, .AssistantViewController, .FlippableFlashcard-back, .FlippableFlashcard-front, .AssistantRevealSelfAssessmentQuestionView-actionArea {
                 background-color: #2b2b2b !important;
                 color: #eee !important;
             }
@@ -38,12 +38,44 @@
                 color: #eee !important;
             }
 
-            .ModeControls-blurTop, .ModeControls-blurBottom, .AssistantScrollableViewLayout-topBlur, .AssistantScrollableViewLayout-bottomBlur {
+            .ModeControls-blurTop, .ModeControls-blurBottom, .AssistantScrollableViewLayout-topBlur, .AssistantScrollableViewLayout-bottomBlur, .AssistantScrollableTermViewLayout-bottomBlur, .AssistantCheckpointView-bucketBlur, .UIScrollableFrame-gradientBot, .UIScrollableFrame-gradientTop {
                 opacity: 0;
             }
 
             .UIButton--whiteBorder {
                 background-color: #545454 !important;
+            }
+
+            .AssistantCheckpointView {
+                background-color: #2b2b2b !important;
+            }
+
+            .AssistantCheckpointBucketedTermButton, .SetPageTerm {
+                background-color: #3f3f3f !important;
+            }
+
+            .AssistantCheckpointView-buckets {
+                background-color: #232323;
+            }
+
+            .UISwitch-label {
+                background-color: #545454;
+            }
+
+            .SetPageTerm-wordText, . {
+                color: #eee !important;
+            }
+
+            .AutoExpandTextarea-wrapper {
+                color: #fff;
+            }
+
+            .FlashcardQuestionView-actionArea, .FlashcardQuestionView-flashcardWrapper {
+                background-color: rgba(0, 0, 0, 0.1);
+            }
+            
+            .FlippableFlashcard-flipTip {
+                z-index: 10;
             }
         `;
     } else if (href.includes('/flashcards')) {
